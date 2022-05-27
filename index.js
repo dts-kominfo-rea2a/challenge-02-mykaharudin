@@ -33,7 +33,7 @@ function lakukanLooping(arrPegawai) {
   */
   let jumlahPria = 0;
   for (let p = 0;  p < dataYangAkanDilooping.length; p++) {
-    let inijumlahPria = dataYangAkanDilooping[p].jenisKelamin === "M";
+    inijumlahPria = dataYangAkanDilooping[p].jenisKelamin === "M";
     inijumlahPria += 1;
   }
   /*
@@ -42,7 +42,7 @@ function lakukanLooping(arrPegawai) {
   */
   let jumlahWanita = 0;
   for (let w = 0;  w < dataYangAkanDilooping.length; w++) {
-    let inijumlahWanita = dataYangAkanDilooping[w].jenisKelamin === "F";
+    inijumlahWanita = dataYangAkanDilooping[w].jenisKelamin === "F";
     inijumlahWanita +=1;
   }
   /*
