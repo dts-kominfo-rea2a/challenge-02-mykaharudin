@@ -25,26 +25,26 @@ function lakukanLooping(arrPegawai) {
   */
   let hasilLooping = [];
   for (let i = 0;  i < dataYangAkanDilooping.length; i++) {
-    hasilLooping = dataYangAkanDilooping[i].namaDepan + " " + dataYangAkanDilooping[i].namaBelakang;
-    hasilLooping +=1;
+    let inihasilLooping = dataYangAkanDilooping[i].namaDepan + " " + dataYangAkanDilooping[i].namaBelakang;
+    inihasilLooping +=1;
   }
   /*
     TODO 2: Buatlah sebuah variabel bernama "jumlahPria"
       yang berisi jumlah pria dari masing masing pegawai
   */
-  let jumlahPria = [];
+  let jumlahPria = null;
   for (let p = 0;  p < dataYangAkanDilooping.length; p++) {
-    jumlahPria = dataYangAkanDilooping[p].jenisKelamin === "M";
-    jumlahPria += 1;
+    let inijumlahPria = dataYangAkanDilooping[p].jenisKelamin === "M";
+    inijumlahPria += 1;
   }
   /*
     TODO 3: Buatlah sebuah variabel bernama "jumlahWanita"
       yang berisi jumlah wanita dari masing masing pegawai
   */
-  let jumlahWanita = [];
+  let jumlahWanita = null;
   for (let w = 0;  w < dataYangAkanDilooping.length; w++) {
-    jumlahWanita = dataYangAkanDilooping[w].jenisKelamin === "F";
-    jumlahWanita +=1;
+    let inijumlahWanita = dataYangAkanDilooping[w].jenisKelamin === "F";
+    inijumlahWanita +=1;
   }
   /*
     TODO 4: Buatlah sebuah variabel bernama "komentar"
