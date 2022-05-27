@@ -34,7 +34,6 @@ function lakukanLooping(arrPegawai) {
   let jumlahPria = 0;
   for (let p = 0;  p < dataYangAkanDilooping.length; p++) {
     jumlahPria = dataYangAkanDilooping[p].jenisKelamin==="M";
-    jumlahPria += 1;
   }
   /*
     TODO 3: Buatlah sebuah variabel bernama "jumlahWanita"
