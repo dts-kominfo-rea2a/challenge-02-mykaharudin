@@ -34,6 +34,7 @@ function lakukanLooping(arrPegawai) {
   let jumlahPria = [];
   for (let p = 0;  p < dataYangAkanDilooping.length; p++) {
     jumlahPria.push(dataYangAkanDilooping[p].jenisKelamin==="M");
+    jumlahPria+=1;
   }
   /*
     TODO 3: Buatlah sebuah variabel bernama "jumlahWanita"
@@ -42,7 +43,7 @@ function lakukanLooping(arrPegawai) {
   let jumlahWanita = [];
   for (let f = 0; f < dataYangAkanDilooping.length; f++) {
     jumlahWanita.push(dataYangAkanDilooping[f].jenisKelamin==="F");
-    
+    jumlahWanita+=1;
   }
   /*
     TODO 4: Buatlah sebuah variabel bernama "komentar"
