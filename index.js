@@ -39,16 +39,12 @@ function lakukanLooping(arrPegawai) {
     TODO 3: Buatlah sebuah variabel bernama "jumlahWanita"
       yang berisi jumlah wanita dari masing masing pegawai
   */
-  let jumlahWanita = null;
-  let wanita = [];
-    
-  for (let i = 0; i < panjangDataLooping; i++) {
-    if (dataYangAkanDilooping[i].jenisKelamin === "F") {
-      wanita.push(i);
-      }
+  let jumlahWanita = 0;
+  for (let i = 0; i < dataYangAkanDilooping.length; i++) {
+    if(dataYangAkanDilooping[i].jenisKelamin === 'F') {
+      jumlahWanita++;
+    }
   }
-    
-      jumlahWanita = wanita.length;
   /*
     TODO 4: Buatlah sebuah variabel bernama "komentar"
       yang akan mengomentari apakah lebih banyak Pria atau Wanita
