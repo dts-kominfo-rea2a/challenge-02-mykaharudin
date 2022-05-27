@@ -26,7 +26,6 @@ function lakukanLooping(arrPegawai) {
   let hasilLooping = inihasilLooping;
   for (let i = 0;  i < dataYangAkanDilooping.length; i++) {
     let inihasilLooping = dataYangAkanDilooping[i].namaDepan + " " + dataYangAkanDilooping[i].namaBelakang;
-    inihasilLooping +=1;
   }
   /*
     TODO 2: Buatlah sebuah variabel bernama "jumlahPria"
