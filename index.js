@@ -33,8 +33,7 @@ function lakukanLooping(arrPegawai) {
   */
   let jumlahPria = 0;
   for (let p = 0;  p < dataYangAkanDilooping.length; p++) {
-    jumlahPria=dataYangAkanDilooping[p].jenisKelamin==="M";
-    jumlahPria+=1;
+    jumlahWanita += dataYangAkanDilooping[P].jenisKelamin === "M";
   }
   /*
     TODO 3: Buatlah sebuah variabel bernama "jumlahWanita"
@@ -42,8 +41,7 @@ function lakukanLooping(arrPegawai) {
   */
   let jumlahWanita = 0;
   for (let w = 0;  w < dataYangAkanDilooping.length; w++) {
-    jumlahWanita = dataYangAkanDilooping[w].jenisKelamin === "F";
-    jumlahWanita +=1;
+    jumlahWanita += dataYangAkanDilooping[w].jenisKelamin === "F";
   }
   /*
     TODO 4: Buatlah sebuah variabel bernama "komentar"
