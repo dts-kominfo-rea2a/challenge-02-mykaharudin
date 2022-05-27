@@ -40,8 +40,8 @@ function lakukanLooping(arrPegawai) {
       yang berisi jumlah wanita dari masing masing pegawai
   */
   let jumlahWanita = 0;
-  for (let pegawai of dataYangAkanDilooping) {
-    pegawai.jenisKelamin==="F" && jumlahWanita++;
+  for (let pegawai2 of dataYangAkanDilooping) {
+    pegawai2.jenisKelamin==="F" && jumlahWanita++;
   }
   /*
     TODO 4: Buatlah sebuah variabel bernama "komentar"
