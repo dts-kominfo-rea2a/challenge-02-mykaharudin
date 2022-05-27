@@ -32,9 +32,8 @@ function lakukanLooping(arrPegawai) {
       yang berisi jumlah pria dari masing masing pegawai
   */
   let jumlahPria = [];
-  for (let p = 0;  p < dataYangAkanDilooping.length; p++) {
-    jumlahPria.push(dataYangAkanDilooping[p].jenisKelamin==="M");
-    jumlahPria+=1;
+  for (let pegawai of dataYangAkanDilooping) {
+    pegawai.jenisKelamin==="M" && jumlahPria++;
   }
   /*
     TODO 3: Buatlah sebuah variabel bernama "jumlahWanita"
