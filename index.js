@@ -33,7 +33,7 @@ function lakukanLooping(arrPegawai) {
   */
   let jumlahPria = 0;
   for (let p = 0;  p < dataYangAkanDilooping.length; p++) {
-    jumlahPria.push(dataYangAkanDilooping[p].jenisKelamin==="M");
+    jumlahPria=dataYangAkanDilooping[p].jenisKelamin==="M";
     jumlahPria+=1;
   }
   /*
