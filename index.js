@@ -40,11 +40,8 @@ function lakukanLooping(arrPegawai) {
       yang berisi jumlah wanita dari masing masing pegawai
   */
   let jumlahWanita = 0;
-  while (jumlahWanita < dataYangAkanDilooping.length) {
-    if (dataYangAkanDilooping[jumlahWanita].jenisKelamin==="F") {
-      arrayObjectPegawai.push(jumlahWanita);
-    }
-    jumlahWanita++;
+  for (let pegawai of dataYangAkanDilooping) {
+    pegawai.jenisKelamin==="F" && jumlahWanita++;
   }
   /*
     TODO 4: Buatlah sebuah variabel bernama "komentar"
@@ -61,7 +58,7 @@ function lakukanLooping(arrPegawai) {
   if (jumlahPria > jumlahWanita) {
     komentar = "Jumlah Pria Lebih banyak dari Wanita";
   } else if(jumlahWanita > jumlahPria){
-    komentar = "Jumlah Wanita Lebih bantak dari pria";
+    komentar = "Jumlah Wanita Lebih banyak dari pria";
   }else if(jumlahPria == jumlahWanita){
     komentar = "Jumlah Pria dan Wanita berimbang";
   }
