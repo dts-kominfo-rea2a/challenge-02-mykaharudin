@@ -25,14 +25,13 @@ function lakukanLooping(arrPegawai) {
   */
   let hasilLooping = [];
   for (let i = 0;  i < dataYangAkanDilooping.length; i++) {
-    dataYangAkanDilooping[i].namaDepan + " " + dataYangAkanDilooping[i].namaBelakang;
-    dataYangAkanDilooping++;
+    hasilLooping.push(dataYangAkanDilooping[i].namaDepan + " " + dataYangAkanDilooping[i].namaBelakang);
   }
   /*
     TODO 2: Buatlah sebuah variabel bernama "jumlahPria"
       yang berisi jumlah pria dari masing masing pegawai
   */
-  let jumlahPria = null;
+  let jumlahPria = 0;
   for (let p = 0;  p < dataYangAkanDilooping.length; p++) {
     let inijumlahPria = dataYangAkanDilooping[p].jenisKelamin === "M";
     inijumlahPria += 1;
@@ -41,7 +40,7 @@ function lakukanLooping(arrPegawai) {
     TODO 3: Buatlah sebuah variabel bernama "jumlahWanita"
       yang berisi jumlah wanita dari masing masing pegawai
   */
-  let jumlahWanita = null;
+  let jumlahWanita = 0;
   for (let w = 0;  w < dataYangAkanDilooping.length; w++) {
     let inijumlahWanita = dataYangAkanDilooping[w].jenisKelamin === "F";
     inijumlahWanita +=1;
