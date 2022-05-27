@@ -31,9 +31,10 @@ function lakukanLooping(arrPegawai) {
     TODO 2: Buatlah sebuah variabel bernama "jumlahPria"
       yang berisi jumlah pria dari masing masing pegawai
   */
-  let jumlahPria = [];
+  let jumlahPria = 0;
   for (let p = 0;  p < dataYangAkanDilooping.length; p++) {
     jumlahPria.push(dataYangAkanDilooping[p].jenisKelamin==="M");
+    jumlahPria+=1;
   }
   /*
     TODO 3: Buatlah sebuah variabel bernama "jumlahWanita"
@@ -60,7 +61,7 @@ function lakukanLooping(arrPegawai) {
     komentar = "Jumlah Pria Lebih banyak dari Wanita";
   } else if(jumlahWanita > jumlahPria){
     komentar = "Jumlah Wanita Lebih bantak dari pria";
-  }else if(jumlahPria==jumlahWanita){
+  }else{
     komentar = "Jumlah Pria dan Wanita berimbang";
   }
 
