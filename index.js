@@ -42,7 +42,7 @@ function lakukanLooping(arrPegawai) {
   let jumlahWanita = 0;
   while (jumlahWanita < dataYangAkanDilooping.length) {
     jumlahWanita.push(dataYangAkanDilooping[jumlahWanita].jenisKelamin==="F");
-    jumlahWanita++;
+    break;
   }
   /*
     TODO 4: Buatlah sebuah variabel bernama "komentar"
